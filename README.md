@@ -8,10 +8,10 @@ This can be used in cases where you can not install any software (like postman) 
 
 ## Instructions
 
-First you must configure your api parameters (inluding auth) in "parametros.sh" file.
+First you must configure your api parameters (inluding auth) in "parameters.sh" file.
 
-After that, create a file with your json data to be sent with the name: "payload_XXX.json", where XXX is the configured endpoint in the "parametros.sh".
-If in "parametros.sh" REQUEST_ENDPOINT="my-endpoint" then the json file name must be: "payload_my-endpoint.json"
+After that, create a file with your json data to be sent with the name: "payload_XXX.json", where XXX is the configured endpoint in the "parameters.sh".
+If in "parameters.sh" REQUEST_ENDPOINT="my-endpoint" then the json file name must be: "payload_my-endpoint.json"
 
 Then, from a bash terminal, run the command: ./request.sh
 
@@ -26,4 +26,4 @@ Next, it will try again to send the request using the new token.
 
 "httpcodes.txt" is just a file that the script uses to translate the received HTTP codes from the API.
 
-The API response will be shown in the terminal and stored in the file: "response_XXX.json", where XXX is the configured endpoint in the "parametros.sh".
+The API response will be shown in the terminal and stored in the file: "response_XXX.json", where XXX is the configured endpoint in the "parameters.sh".
