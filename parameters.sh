@@ -14,4 +14,4 @@ AUTH_PASS="yourPassword"
 
 REQUEST_DOMAIN="https://api.domain.com.br"
 
-REQUEST_ENDPOINT="endpoint"  # This will be part of the payload and response json files names
+REQUEST_ENDPOINT="Endpoint"  # This will be part of the payload and response json files names
