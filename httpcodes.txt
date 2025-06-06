@@ -1,10 +1,10 @@
-200 Sucesso
-201 Criado
-204 Sem conteúdo
-400 Solicitação inválida
-401 Não autorizado
-403 Proibido
-404 Não encontrado
-406 Resposta do Servidor veio em formato não aceitável
-500 Erro interno do servidor
-503 Serviço indisponível
+200 Success
+201 Created
+204 No content
+400 Invalid request
+401 Not authorized
+403 Forbiden
+404 Not found
+406 Unacceptable server response format
+500 Internal server error
+503 Unavailable service
